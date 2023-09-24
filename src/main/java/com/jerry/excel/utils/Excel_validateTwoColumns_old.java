@@ -7,13 +7,13 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ValidateTwoExcelColumns {
+public class Excel_validateTwoColumns_old {
 
     public static void main(String[] args) {
 
         try {
-            boolean validationSuccessful = validateColumns("src/main/resources/excelFiles/file1.xls", "status A",
-                    "src/main/resources/excelFiles/file2.xls", "status B","specialValidation");
+            boolean validationSuccessful = validateColumns("src/main/resources/Excel_validateTwoColumns_old/file1.xls", "status A",
+                    "src/main/resources/Excel_validateTwoColumns_old/file2.xls", "status B","specialValidation");
 
 //            boolean validationSuccessful = validateColumns("src/main/resources/excelFiles/file1.xls", "id",
 //                    "src/main/resources/excelFiles/file2.xls", "id","null");
